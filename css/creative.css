@@ -1,0 +1,60 @@
+/* Inserta tu codigo CSS aqui */
+@import url(header.css);
+@import url(banner.css);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Arimo';
+}
+.w-100{
+	width: 100%;
+}
+.text-center {
+	text-align: center;
+}
+.color-white{
+	color: #fff;
+}
+.color-white-rgb{
+	color: rgba(255, 255, 255, 0.67);
+}
+.mg-0{
+	margin: 0;
+}
+.mg-5-0{
+	margin:3% 0;
+}
+.mg-10-0{
+	margin:10% 0;
+}
+.pd-0{
+	padding: 0;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+.pd-0-11-5{
+	padding: 0% 9% 5%; 
+}
+.pd-5{
+	padding: 3%;
+}
+.contenedor {
+	height: 700px;
+}
+.sobremi{
+	background:#f05f40;
+}
+.text-sobremi{
+	height: 250px;
+	color: #fff;
+}
+.separador2{
+	display: inline-block;
+	width:40px;
+	height: 2px;
+	text-align: center;
+	background: #fff;
+	border: none;
+}
