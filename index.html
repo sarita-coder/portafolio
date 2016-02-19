@@ -33,16 +33,16 @@
 
 <body>
     <!-- Inserta tu codigo aqui -->
-    <header>
+    <header class="active">
         <div class="container-fluid ">
             <h5 class="header-logo">MI PORTAFOLIO</h5>
             <input type="checkbox" id="menu-bar">
             <label class="glyphicon glyphicon-menu-hamburger" for="menu-bar"></label>
             <nav class="menu">
                 <a href="#sobre-mi">SOBRE MI</a>
-                <a href="">SERVICIOS</a>
-                <a href="">MIS TRABAJOS</a>
-                <a href="">CONTÁCTAME</a>
+                <a href="#servicios">SERVICIOS</a>
+                <a href="#portafolio">MIS TRABAJOS</a>
+                <a href="#contactame">CONTÁCTAME</a>
             </nav>
         </div>
     </header>
@@ -75,26 +75,84 @@
         </section>
     </main>
 
+    <section id="servicios">
+    <h3>SERVICIOS</h3>
+    <hr class="hr">
+    <div class="row cont-serv mg-0">
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <i class="fa fa-diamond"></i>
+        <h5>Desarrollo de Planillas</h5>
+        <p>Desarrollo plantillas a medida con HTML5 / CSS3 / JS</p>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <i class="fa fa-paper-plane"></i>
+        <h5>Campaña de Mailing</h5>
+        <p>Desarrollo de plantillas para campañas por correo</p>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <i class="fa fa-newspaper-o"></i>
+        <h5>Full websites</h5>
+        <p>Desarrollo websites completos y dinamicos</p>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <i class="fa fa-heart"></i>
+        <h5>Aplicaciones Android</h5>
+        <p>Desarrollo aplicacionesAndroid listas para subir a la tienda</p>
+      </div>
+    </div>
+  </section>
 
+  <section id="portafolio">
+    <div class="row mg-0">
+      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4"><img src="img/portfolio/1.jpg"></div>
+      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4"><img src="img/portfolio/2.jpg"></div>
+      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4"><img src="img/portfolio/3.jpg">
+        <div class="fondo center-box hidden-lg hidden-md hidden-sm">
+          <div class="letra">
+            <h5>PROYECTO</h5>
+            <h4>Nombre Proyecto</h4>
+          </div>
+        </div>
+      </div>
+      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4"><img src="img/portfolio/4.jpg"></div>
+      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4"><img src="img/portfolio/5.jpg"></div>
+      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4"><img src="img/portfolio/6.jpg">
+        <div class="fondo center-box hidden-lg hidden-md hidden-sm">
+          <div class="letra">
+            <h5>PROYECTO</h5>
+            <h4>Nombre Proyecto</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="ver-mas" >
+    <div class="row mg-0">
+      <div class="col-xs-12">
+        <p>Si quieres saber más de mi proyecto revisa mi github</p>
+        <a href="#">VER MI GITHUB</a>
+      </div>
+    </div>
+  </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <section id="contactame">
+    <div class="cont-contact">
+      <h3>CONTÁCTAME</h3>
+      <hr class="hr">
+      <p>¿Listo para empezar tu siguiente proyecto? ¿Te gusta lo que has visto? Genial, dame una llamada o esviame un correo y te responderé lo más rápido que pueda!</p>
+      <div class="row mg-0">
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <i class="fa fa-phone"></i>
+          <p>123-456-6789</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <i class="fa fa-envelope-o"></i>
+          <p class="orange">laboratoria@gmail.com</p>
+        </div> 
+      </div>
+    </div>
+  </section>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -109,6 +167,20 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+
+    <script>
+        // Scroll
+    $(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() >= 35) {
+            $("header").addClass("active");
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+           $("header").removeClass("active");
+            }
+        });
+    });
+    </script>
 
 </body>
 

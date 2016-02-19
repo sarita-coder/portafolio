@@ -51,10 +51,119 @@
 	color: #fff;
 }
 .separador2{
-	display: inline-block;
-	width:40px;
-	height: 2px;
+	width: 40px;
+    border-top: 2px #fff solid;
+    margin: 20px auto;
+}
+
+/* Inserta tu codigo CSS aqui */
+#servicios {
+    padding: 4% 0;
+    text-align: center;
+}
+.cont-serv{
+	width: 60%;
 	text-align: center;
-	background: #fff;
-	border: none;
+    margin: 0 auto;
+    font-size: 10px;
+    font-weight: 500;
+}
+.cont-serv i{
+	font-size: 40px;
+	color: #F05F40;
+}
+.cont-serv h3{
+	color: #606060;
+}
+.cont-serv p{
+	color: #B1B1B1;
+}
+@media (max-width: 992px) {
+  .cont-serv {
+    width: 90% !important;
+	}
+}
+
+#portafolio .caja {
+	padding: 0;
+}
+#portafolio .caja img{
+	width: 100%;
+    position: relative;
+    height: 250px;
+}
+.ver-mas {
+	background: #222222;
+    color: white;
+    text-align: center;
+    padding: 2.5% 0;
+}
+.ver-mas p {
+	font-size: 2rem;
+}
+.ver-mas a{
+	background: white;
+    padding: 14px;
+    width: 130px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: black;
+    font-weight: 700;
+    font-size: 10px;
+}
+.fondo {
+    background: rgba(240, 95, 64, 0.8);
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 0;
+}
+.letra{
+    color: white;
+    text-align: center
+} 
+.center-box{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 768px) {
+  	.ver-mas {
+    padding: 10%;
+	}
+}
+.cont-contact{
+	width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 4% 0;
+
+}
+.hr{
+	width: 40px;
+    border-top: 2px #F05F40 solid;
+ 	margin: 20px auto;
+}
+.cont-contact i{
+    color: #333333;
+    font-size: 30px;
+}
+.cont-contact p{
+	color:#B1B1B1;
+}
+.cont-contact h3{
+	color: #606060;
+}
+.orange{
+	color:#F05F40 !important;
+}
+@media (max-width: 768px) {
+  .cont-contact {
+    width: 100%;
+    padding: 10% 5%;
+  }
 }
