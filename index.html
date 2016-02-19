@@ -21,6 +21,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/ihover.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,7 +36,7 @@
     <!-- Inserta tu codigo aqui -->
     <header class="active">
         <div class="container-fluid ">
-            <h5 class="header-logo">MI PORTAFOLIO</h5>
+            <a href="index.html"><h5 class="header-logo">MI PORTAFOLIO</h5></a>
             <input type="checkbox" id="menu-bar">
             <label class="glyphicon glyphicon-menu-hamburger" for="menu-bar"></label>
             <nav class="menu">
@@ -51,7 +52,7 @@
             <div class="container-fluid pd-0 ">
                 <div class="container contenedor flexible">
                         <div class="text-banner text-center color-white">
-                            <h1 class="mg-0">HOLA, MI NOMBRE ES KATY SOY CODER DE LABORATORIA</h1>
+                            <h1 class="mg-0 grow">HOLA, MI NOMBRE ES KATY SOY CODER DE LABORATORIA</h1>
                             <hr class="separador1 mg-5-0">
                             <p class="pd-0-11-5 color-white-rgb">Estas Interesado en desarrollar un sito web o necesitas una frontend develeper, yo te puedo ayudar con los diferentes servicios que  brindo</p>
                             <a class="btn-1 mg-10-0" href="">CONOCE MÁS</a>
@@ -104,20 +105,96 @@
 
   <section id="portafolio">
     <div class="row mg-0">
-      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4"><img src="img/portfolio/1.jpg"></div>
-      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4"><img src="img/portfolio/2.jpg"></div>
-      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4"><img src="img/portfolio/3.jpg">
-        <div class="fondo center-box hidden-lg hidden-md hidden-sm">
+      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="ih-item square effect6 from_top_and_bottom">
+          <a href="#">
+            <div class="img">
+              <img src="img/portfolio/1.jpg" alt="img">
+            </div>
+            <div class="info">
+                <h3>PROYECTO</h3>
+                <p>Nombre del proyecto</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="ih-item square effect6 from_top_and_bottom">
+          <a href="#">
+            <div class="img">
+              <img src="img/portfolio/2.jpg" alt="img">
+            </div>
+            <div class="info">
+              <h3>PROYECTO</h3>
+              <p>Nombre del proyecto</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4 hidden-xs">
+        <div class="ih-item square effect6 from_top_and_bottom">
+          <a href="#">
+            <div class="img">
+              <img src="img/portfolio/3.jpg">
+            </div>
+            <div class="info">
+              <h3>PROYECTO</h3>
+              <p>Nombre del proyecto</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4 visible-xs">
+        <img src="img/portfolio/3.jpg">
+        <div class="fondo center-box">
           <div class="letra">
             <h5>PROYECTO</h5>
             <h4>Nombre Proyecto</h4>
           </div>
         </div>
       </div>
-      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4"><img src="img/portfolio/4.jpg"></div>
-      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4"><img src="img/portfolio/5.jpg"></div>
-      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4"><img src="img/portfolio/6.jpg">
-        <div class="fondo center-box hidden-lg hidden-md hidden-sm">
+      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="ih-item square effect6 from_top_and_bottom">
+          <a href="#">
+            <div class="img">
+              <img src="img/portfolio/4.jpg">
+            </div>
+            <div class="info">
+                <h3>PROYECTO</h3>
+                <p>Nombre del proyecto</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="ih-item square effect6 from_top_and_bottom">
+          <a href="#">
+            <div class="img">
+              <img src="img/portfolio/5.jpg">
+            </div>
+            <div class="info">
+                <h3>PROYECTO</h3>
+                <p>Nombre del proyecto</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="ih-item square effect6 from_top_and_bottom">
+          <a href="#">
+            <div class="img">
+              <img src="img/portfolio/6.jpg">
+            </div>
+            <div class="info">
+              <h3>PROYECTO</h3>
+              <p>Nombre del proyecto</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="caja col-xs-12 col-sm-6 col-md-4 col-lg-4 visible-xs">
+        <img src="img/portfolio/6.jpg">
+        <div class="fondo center-box">
           <div class="letra">
             <h5>PROYECTO</h5>
             <h4>Nombre Proyecto</h4>
@@ -131,7 +208,7 @@
     <div class="row mg-0">
       <div class="col-xs-12">
         <p>Si quieres saber más de mi proyecto revisa mi github</p>
-        <a href="#">VER MI GITHUB</a>
+        <a class="btn-github" href="#">VER MI GITHUB</a>
       </div>
     </div>
   </section>

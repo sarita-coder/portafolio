@@ -18,6 +18,7 @@
 	font-family: 'Arimo'!important ;
 	font-size:4.6rem!important;
 	font-weight: 700;
+ 	text-shadow: 2px 2px  #f05f40;
 }
 .text-banner p{
 	font-size: 13px;
@@ -45,6 +46,19 @@
 	font-size: 10px;
 	font-weight: bold;
 }
+.grow:hover {
+transform: scale(1.3);
+ 	text-shadow: 2px 2px  #f05f40;
+  }
+ .btn-1:hover{
+ 	margin: 5px;
+ 	border:1px solid white;
+ }
+ .btn-github:hover{
+	border: 1px solid #f05f40;
+ }
+
+
 /**** GALAZY S4************/
 @media (max-width: 360px) {
 #banner{
@@ -108,5 +122,12 @@
 	.text-banner p {
 		font-size: 19px;
 		padding:0!important;
+	}
+}
+@media (min-width: 1200px) {
+	.flex-2{
+		padding: 0 21.3%;
+
+
 	}
 }
